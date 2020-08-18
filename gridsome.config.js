@@ -10,8 +10,8 @@ module.exports = {
     {
       use: '@gridsome/source-contentful',
       options: {
-        space: 'l2gkdlzjbcyl', // required
-        accessToken: 'kv2mWW7InuPQbksPrUhtRNg0TjIjjiSTacpk32Na42Q', // required
+        space: '', // required
+        accessToken: '', // required
         host: 'cdn.contentful.com',
         environment: 'master',
         typeName: 'Contentful'
