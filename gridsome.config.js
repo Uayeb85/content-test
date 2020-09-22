@@ -10,16 +10,19 @@ module.exports = {
     {
       use: '@gridsome/source-contentful',
       options: {
-        space: '', // required
-        accessToken: '', // required
+        space: process.env.YOUR_SPACE, // required
+        accessToken: process.env.YOUR_ACCESS_TOKEN, // required
         host: 'cdn.contentful.com',
         environment: 'master',
-        typeName: 'Contentful'
+        typeName: 'Contentful',
       }
     }
   ],
   templates:{
     ContentfulServicios:'/servicios/:slug',
-    ContentfulFibra:'/fibras/:slug'
-  }
+    ContentfulFibra:'/fibras/:slug',
+    ContentfulCrc: '/crc/:slug',
+    ContentfulSoluciones: '/soluciones/:slug',
+    ContentfulPost: '/post/:slug'
+  },
 }
