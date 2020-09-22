@@ -8,7 +8,8 @@
         <g-link class="nav__link" to="/">Home</g-link>
         <g-link class="nav__link" to="/servicios/">servicios</g-link>
         <g-link class="nav__link" to="/fibras/">Fibras</g-link>
-        <g-link class="nav__link" to="/about/">About</g-link>
+        <g-link class="nav__link" to="/crc/">CRC</g-link>
+        <g-link class="nav__link" to="/post/">Post</g-link>
       </nav>
     </header>
     <slot/>
